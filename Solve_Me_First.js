@@ -24,9 +24,9 @@ function solveMeFirst(a, b) {
 
 
 function main() {
-    var a = parseInt(readLine());
-    var b = parseInt(readLine());;
+    let a = parseInt(readLine());
+    let b = parseInt(readLine());;
 
-    var res = solveMeFirst(a, b);
+    let res = solveMeFirst(a, b);
     console.log(res);
 }
